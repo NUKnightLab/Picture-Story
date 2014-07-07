@@ -1,0 +1,65 @@
+body {
+	background-color:#999;//#1b1b1b;
+}
+article {
+	z-index:15;
+	position:relative;
+	//margin-top:-100px;
+	padding-top:100px;
+	//.box-shadow( 0px -4px 20px rgba(0,0,0,1));
+	.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
+	//margin-top:200px;
+	//margin-top:-50px;
+	background-color:#FFF;
+}
+
+// LAYOUT EXTRAS
+.full-width {
+	position: relative;
+}
+
+.align-right {
+	text-align:right;
+}
+
+.align-left {
+	text-align:left;
+}
+
+.align-center {
+	text-align:center;
+}
+
+// Lazy Load
+.lazyload {
+	img {
+		opacity: 0;
+		transition: opacity .3s ease-in;
+	}
+}
+
+// CustomFancy Box
+.fancybox-overlay, #fancybox-thumbs {
+	img {
+		opacity:1;
+	}
+}
+
+// GRID WALKTHRU EXAMPLE
+.show-grid [class*="row"]{
+	background-color: rgba(255,0,0, 0.25);
+}
+
+.show-grid [class*="col"] {
+	background-color: #eee;
+	background-color: rgba(0,0,0, 0.25);
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 40px;
+	line-height: 40px;
+}
+
+
+

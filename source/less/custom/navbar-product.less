@@ -1,0 +1,278 @@
+header.navigation {
+	#navbar-product {
+		z-index:20;
+		border-radius:0;
+		border:0;
+		//position:relative;
+		position:static;
+		top:0;
+		margin:0;
+		//margin-top:254px;
+		background-color: transparent;
+		//background-color:rgba(255,255,255,1);
+		//border-top: 2px solid #666;
+		//.box-shadow( 0px -4px 4px rgba(0,0,0,1));
+		//.box-shadow( 0px -4px -4px rgba(0,0,0,.25));
+
+		//.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
+		border-bottom: 1px solid transparent;
+		
+		.container-fluid {
+			position:relative;
+		}
+		
+		&.in-article {
+			background-color:rgba(255,255,255,0.95);
+			border-bottom: 1px solid #CCC;
+			.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
+			
+			.navbar-brand-knightlab,
+			#navbar-title {
+				color:#444;
+				text-shadow: none;
+				
+			}
+			.navbar-brand-knightlab {
+				color:#999;
+			}
+			
+			#stories-btn {
+				color:#999;
+			}
+			#navbar-title {
+				color:#000;
+				//font-weight:bold;
+			}
+			&.no-cover {
+				background-color:rgba(255,255,255,0.95);
+				#navbar-title {
+					display:block;
+					color:#000;
+					//font-weight:bold;
+				}
+				.navbar-brand-knightlab {
+					color:#999;
+				}
+			}
+			#navbar-title, .divider-vertical {
+				display:block;
+			}
+			.navbar-brand-knightlab {
+				
+			}
+			li a {
+				color: #777777;
+			}
+			.knightlab-logo {
+				img {
+					height:32px;
+					margin-right:10px;
+			
+					padding:0;
+					background-color:transparent;
+					border-radius:0;
+					border:0;
+				}
+				
+				b.caret {
+					display:inline-block;
+				}
+			}
+		}
+		
+		&.no-cover {
+			background-color:rgba(255,255,255,0.75);
+			-webkit-transition: all 0.30s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			transition-property: all;
+			transition-duration: 0.3s;
+			transition-timing-function: ease;
+			transition-delay: initial;
+			.navbar-brand-knightlab,
+			#navbar-title {
+				color:#444;
+				text-shadow: none;
+				text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+			}
+			
+			#navbar-title, .divider-vertical {
+				display:block;
+			}
+			#navbar-title {
+				display:none;
+			}
+			li a {
+				color: #777777;
+				
+			}
+		}
+		
+		li a {
+			//color: #FFF;
+			
+		}
+		#stories-btn {
+			z-index:5;
+			&.btn {
+				background-color: transparent;
+				padding-top:3px;
+				padding-bottom:3px;
+				margin-top:8px;
+				border-color:#CCC;
+				color:#FFF;
+			}
+			color:#FFF;
+			&:hover {
+				color:#DDD;
+			}
+			.icon-stack {
+				//font-size:18px;
+				//margin-top:5px;
+				padding-top:5px;
+				
+			}
+		}
+		
+		.knightlab-logo {
+			img {
+				height:76px;
+				margin-right:0px;
+			
+				padding:15px;
+				background-color:rgba(255,255,255,0.8);
+				border: 1px solid #fff;
+				border-radius:50%;
+			}
+			
+			b.caret {
+				display:none;
+			}
+		}
+		
+		.navbar-brand-knightlab,
+		#navbar-title {
+			color:#FFF;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+		}
+		
+		.navbar-brand-knightlab {
+			z-index:5;
+			//font-weight: bold;
+			//color:#FFF;
+			font-size: 24px;
+			//text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+			font-family: "Salvo Serif Cond",Georgia,"Times New Roman",Times,serif;
+			font-style: italic;
+			
+		
+		}
+		.divider-vertical {
+			display:none;
+		}
+		#navbar-title {
+			font-size: 16px;
+			display:none;
+			text-align:center;
+			width:100%;
+			float:none;
+			position:absolute;
+			top:0;
+			padding-top: 15px;
+			padding-bottom: 11.5px;
+			z-index:0;
+			//font-weight:bold;
+			small {
+				//font-weight:normal;
+				color:#999;
+				margin-left:5px;
+			}
+		}
+		@media (max-width: 991px) and (min-width: 768px) {
+			#title-bar-title {
+				small {
+					display: none!important;
+				}
+			}
+		}
+		@media (min-width: 768px) {
+			#title-bar-title {
+				margin-left: -15px;
+				padding-top: 11.5px;
+				padding-bottom: 11.5px;
+			}
+		}
+	
+		.btn, a.btn {
+			font-size:14px;
+			&.btn-default {
+				color: #333333;
+			}
+		}
+	
+		.navbar-header {
+			float: none;
+			text-align:center;
+			width:100%;
+			position:absolute;
+			top:0;
+			.navbar-brand {
+				float: none;
+			}
+		}
+	
+		ul.nav.navbar-nav {
+			li {
+				&.active {
+					a {
+						background-color:#CCC;
+					}
+				}
+			
+			
+			}
+			.dropdown-menu {
+				a.btn-success, .btn-success {
+					margin:10px;
+					margin-left:10px;
+					margin-right:10px;
+					font-size: 14px;
+					padding: 6px 12px;
+				    &:hover,
+				    &:focus,
+				    &:active,
+				    &.active,
+				    .open .dropdown-toggle& {
+						background-color: darken(#5cb85c, 8%);
+						border-color: darken(#4cae4c, 12%);
+				    }
+				}
+				a.btn-success {
+					color: #fff;
+				}
+				.about-knightlab {
+					margin:20px;
+					a {
+					
+					}
+					ul li, p {
+						font-size:14px;
+					}
+					p {
+						font-size:14px;
+					}
+					h3 {
+						font-size:16px;
+						font-weight:bold;
+						font-family: 'Turnip RE', Georgia, 'Times New Roman', Times, serif;
+						margin-top:0;
+					}
+				}
+			
+			}
+		}
+	}
+}
+

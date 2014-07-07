@@ -1,0 +1,50 @@
+// Carousel
+div.carousel.slide(id="myCarousel", data-ride="carousel", data-interval="false")
+	// Indicators
+	ol.carousel-indicators
+		li.active(data-target="#myCarousel",data-slide-to="0")
+		li(data-target="#myCarousel",data-slide-to="1")
+		li(data-target="#myCarousel",data-slide-to="2")
+		li(data-target="#myCarousel",data-slide-to="3")
+		li(data-target="#myCarousel",data-slide-to="4")
+		li(data-target="#myCarousel",data-slide-to="5")
+		li(data-target="#myCarousel",data-slide-to="6")
+	div.carousel-inner
+		div.item.active
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:First slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8170.jpg")
+			
+			p.credit Zach Wise
+			p.caption Some text for the caption
+
+		div.item
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:Second slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8175.jpg")
+			p.credit Zach Wise
+			p.caption Some text for the caption
+		div.item
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:Third slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8179.jpg")
+			p.credit Zach Wise
+			p.caption Some text for the caption
+		div.item
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:Third slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8314.jpg")
+			p.credit Zach Wise
+			p.caption Some text for the caption
+		div.item
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:Third slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8364.jpg")
+			p.credit Zach Wise
+			p.caption Some text for the caption
+		div.item
+			//img(data-src="holder.js/1200x500/auto/#777:#7a7a7a/text:Third slide")
+			img.img-responsive(src="photos/pumpkin_queen/pumpkin_8386.jpg")
+			p.credit Zach Wise
+			p.caption Some text for the caption
+
+	a.carousel-control.left(href="#myCarousel",data-slide="prev")
+		span.glyphicon.glyphicon-chevron-left
+	a.carousel-control.right(href="#myCarousel",data-slide="next")
+		span.glyphicon.glyphicon-chevron-right
+// END Carousel

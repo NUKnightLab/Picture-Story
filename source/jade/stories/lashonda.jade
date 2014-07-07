@@ -1,0 +1,26 @@
+include ../includes/mixins
+
++head-stories("Walking with LaShonda")
+
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
+	// NAVBAR NAVIGATION
+	include ../sections/navbar 
+	// END NAVBAR
+
+	// STORY COVER
+	section#story-cover
+		div.story-cover-image(style="background-image: url('../photos/lashonda/couch.jpg');")
+		div.story-cover-arrow
+		div.story-cover-content
+			h1 Walking with LaShonda
+			p.lead A Day in the Life of a student on the West Side
+			p.byline by CHRISTINA CALA
+			p.byline Photographs by CHRISTINA CALA
+	section.story-cover-caption
+		div.caption
+			|  LaShonda Pelks has lived in the same neighborhood her whole life, but has moved repeatedly. She's been living with her parents and younger sister on Lotus Drive for roughly two years.
+	article.lazyload
+		include source/lashonda.html
+
+	include ../sections/footer-stories

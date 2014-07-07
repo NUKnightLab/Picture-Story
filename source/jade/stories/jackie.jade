@@ -1,0 +1,26 @@
+include ../includes/mixins
+
++head-stories("Raising the Bar")
+
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
+	// NAVBAR NAVIGATION
+	include ../sections/navbar 
+	// END NAVBAR
+
+	// STORY COVER
+	section#story-cover
+		div.story-cover-image(style="background-image: url('../photos/jackie/DSC_7136.JPG');")
+		div.story-cover-arrow
+		div.story-cover-content
+			h1 Raising the Bar
+			p.lead A Chicago teen sets high expectations for herself and her new family before graduation
+			p.byline by MONIKA WNUK
+			p.byline Photographs by MONIKA WNUK
+	section.story-cover-caption
+		div.caption
+			| Senior Jacqueline Martinez and her boyfriend share a bus ride on her second to last day of high school. The two are expecting their first child this November.
+	article.lazyload
+		include source/jackie.html
+
+	include ../sections/footer-stories

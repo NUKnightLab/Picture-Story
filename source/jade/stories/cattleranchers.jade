@@ -1,0 +1,26 @@
+include ../includes/mixins
+
++head-stories("Treating Sick Meat")
+
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
+	// NAVBAR NAVIGATION
+	include ../sections/navbar 
+	// END NAVBAR
+
+	// STORY COVER
+	section#story-cover
+		div.story-cover-image(style="background-image: url('../photos/cattleranchers/Nadworny0836copy.jpg');")
+		div.story-cover-arrow
+		div.story-cover-content
+			h1 Treating Sick Meat
+			p.lead Ranchers speak out on misperceptions about over-use of antibiotics in cattle.
+			p.byline by JOHN KUHN, ELISSA NADWORNY, SEAN KENNEDY and LAUREL WHITE
+			p.byline Photographs by ELISSA NADWORNY
+	section.story-cover-caption
+		div.caption
+				|  
+	article.lazyload
+		include source/cattleranchers.html
+
+	include ../sections/footer-stories

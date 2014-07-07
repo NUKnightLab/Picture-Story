@@ -1,0 +1,53 @@
+// Figure
+figure {
+	margin-top:50px;
+	margin-bottom:50px;
+	
+	figcaption {
+		.caption();
+		&.credit {
+			.credit();
+		}
+	}
+	.img-responsive {
+		width:100%;
+	}
+	&.figure-pull-right, &.figure-pull-left {
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	&.figure-pull-left {
+		width: 50%;
+		float: left !important;
+		padding-right:15px;
+	}
+
+	&.figure-pull-right {
+		width: 50%;
+		float: right !important;
+		padding-left:15px;
+	}
+	
+	img {
+		&.ll-notloaded {
+			opacity:0;
+		}
+		&.ll-loaded {
+			//opacity:1;
+		}
+	}
+	
+}
+
+.full-width {
+	figure {
+		margin-top:0;
+		figcaption {
+			margin-left:20px;
+			&.credit {
+				margin-right:20px;
+			}
+		}
+		
+	}
+}

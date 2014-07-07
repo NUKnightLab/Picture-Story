@@ -1,0 +1,74 @@
+// CAROUSEL
+.carousel {
+	.caption, p.caption {
+		margin-left:15px;
+	}
+	.carousel-control {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 15%;
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		font-size: 48px;
+		color: #ffffff;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+	}
+	.carousel-control.right, .carousel-control.left {
+		background-image: none;
+		background-image: none;
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=1);
+	}
+	.carousel-control.right {
+		left: auto;
+		right: 0;
+	
+	}
+	.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+		left: 10%;
+	}
+	.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+		right: 10%;
+	}
+	.carousel-caption {
+		position: relative;
+		z-index: 10;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #333;
+		text-align: left;
+		text-shadow: none;
+		h1, h2, h3, h4, h5, h6 {
+			margin-top:0;
+		}
+	}
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		display: block;
+		max-width: auto;
+		width:100%;
+		height: auto;
+		line-height: 1;
+	}
+	.credit {
+		.credit();
+	}
+	.caption {
+		.caption();
+	}
+}
+
+// FULL WIDTH
+.full-width {
+	.carousel {
+		.caption {
+			margin-left:20px;
+		}
+		.credit {
+			margin-right:20px;
+		}
+		
+	}
+}

@@ -1,0 +1,26 @@
+include ../includes/mixins
+
++head-stories("Farming for the Future")
+
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
+	// NAVBAR NAVIGATION
+	include ../sections/navbar 
+	// END NAVBAR
+	// STORY COVER
+	section#story-cover
+		div.story-cover-image(style="background-image: url('../photos/farm/WhiteOak8.jpg');")
+		div.story-cover-arrow
+		div.story-cover-content
+			h1 Farming for the Future
+			p.lead Bucking four generations of tradition, cattleman Will Harris changed the way he farmed to leave behind a better land.
+			p.byline by ANNA BISARO, ASHLEY HICKEY and HOMA BASH
+			p.byline Photographs by HOMA BASH
+	section.story-cover-caption
+		div.caption
+			|  Harris’ hogs are free to roam several fenced-in acres among thick Georgia pines. 
+	article.lazyload
+		
+		include source/farm.html
+
+	include ../sections/footer-stories

@@ -1,0 +1,31 @@
+blockquote {
+	display:block;
+	font-family: @font-family-sans-serif;
+	padding:0;
+	font-size: (@font-size-base * 1.75);
+	margin: 20px 0px 20px 0px;
+	border:0;
+	color:@gray-darker;
+	p {
+		text-align:center;
+		margin:0;
+		
+		&:before {
+			content:"“";
+			color:@gray-light;
+		}
+		&:after {
+			content:"”";
+			color:@gray-light;
+		}
+	}
+	cite {
+		&:before {
+			content:"— ";
+			color:@gray-light;
+		}
+		display:block;
+		font-size: 12px;
+		text-align:right;
+	}
+}
