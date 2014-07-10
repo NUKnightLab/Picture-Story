@@ -1,12 +1,10 @@
 include ../includes/mixins
 
-+head-stories("Treating Sick Meat")
++head("Treating Sick Meat", true)
 
 body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 
-	// NAVBAR NAVIGATION
-	include ../sections/navbar 
-	// END NAVBAR
+	+navbar(true)
 
 	// STORY COVER
 	section#story-cover
@@ -23,4 +21,4 @@ body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 	article.lazyload
 		include source/cattleranchers.html
 
-	include ../sections/footer-stories
+	+footer(true)

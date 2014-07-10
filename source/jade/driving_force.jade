@@ -4,7 +4,7 @@ include includes/mixins
 
 body#top.story-nav(data-spy='scroll',data-target='.subnav',data-offset='80')
 
-	include sections/navbar
+	+navbar(false)
 	
 	article
 		section.container.story-header
@@ -55,4 +55,4 @@ body#top.story-nav(data-spy='scroll',data-target='.subnav',data-offset='80')
 						figcaption 
 							| Keith McFee helps his father, Larry McFee, load up his custom built camero after losing in the first round. Several months ago Larry had a heart attack on the drag strip. Having recovered and given the OK from his doctor Larry was soon back in the points race
 
-	include sections/footer
+	+footer()

@@ -1,12 +1,11 @@
 include ../includes/mixins
 
-+head-stories("Farming for the Future")
++head("Farming for the Future", true)
 
 body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 
-	// NAVBAR NAVIGATION
-	include ../sections/navbar 
-	// END NAVBAR
+	+navbar(true)
+	
 	// STORY COVER
 	section#story-cover
 		div.story-cover-image(style="background-image: url('../photos/farm/WhiteOak8.jpg');")
@@ -23,4 +22,4 @@ body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 		
 		include source/farm.html
 
-	include ../sections/footer-stories
+	+footer(true)

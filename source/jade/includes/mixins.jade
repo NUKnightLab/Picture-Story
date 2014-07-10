@@ -1,4 +1,8 @@
-mixin head(title)
+mixin head(title, story)
+	if story
+		- var path = "../"
+	else 
+		- var path = ""
 	doctype html
 	html(lang="en")
 		head
@@ -11,10 +15,10 @@ mixin head(title)
 			title #{title}
 
 			// Picture Story Bootstrap CSS
-			link(rel='stylesheet', href='css/picturestory-bootstrap.css?v4')
+			link(rel='stylesheet', href='#{path}css/picturestory-bootstrap.css?v4')
 
 			// Project CSS
-			link(rel='stylesheet', href='css/project.css?v11')
+			link(rel='stylesheet', href='#{path}css/project.css?v11')
 
 			// HTML5 shim, for IE6-8 support of HTML elements
 			//if lt IE 9
@@ -22,30 +26,141 @@ mixin head(title)
 				script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
 		
 			// Icon
-			link(rel='shortcut icon', href='../img/ico/favicon.png')
+			link(rel='shortcut icon', href='#{path}css/favicon.png')
+			if block
+				block
 
-mixin head-stories(title)
-	doctype html
-	html(lang="en")
-		head
-			meta(charset='utf-8')
-			meta(http-equiv="X-UA-Compatible", content="IE=edge")
-			meta(name='viewport', content='width=device-width, initial-scale=1.0')
-			meta(name='apple-mobile-web-app-capable', content='yes')
-			meta(name='apple-touch-fullscreen', content='yes')
-
-			title #{title}
-
-			// Picture Story Bootstrap CSS
-			link(rel='stylesheet', href='../css/picturestory-bootstrap.css?v4')
-
-			// Project CSS
-			link(rel='stylesheet', href='../css/project.css?v11')
-
-			// HTML5 shim, for IE6-8 support of HTML elements
-			//if lt IE 9
-				script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
-				script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+mixin navbar(story)
+	if story
+		- var path = "../"
+	else 
+		- var path = ""
 		
-			// Icon
-			link(rel='shortcut icon', href='../img/ico/favicon.png')
+	// NAVBAR
+	header.navigation.navbar-fixed-top
+		div.navbar.navbar-default.storybar#navbar-story(role="navigation")
+
+			div.row
+		div#navbar-product.navbar.navbar-default(role="navigation")
+			div.container-fluid
+				div.navbar-header
+					button.navbar-toggle(type="button", data-toggle="collapse", data-target="#product-navbar-collapse")
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+				div.collapse.navbar-collapse.navbar-left#product-navbar-collapse
+					ul.nav.navbar-nav
+						li.dropdown
+							a.dropdown-toggle.navbar-brand-knightlab(href="#", data-toggle="dropdown")
+								| Picture Story
+								b.caret
+							ul.dropdown-menu
+								li
+									div.container.about-knightlab
+										div.row
+											div.col-sm-12
+												h3 About
+												p Bootstrap templating system for photo layouts.
+												div.btn-group
+													a.btn.btn-default(href="http://picturestory.knightlab.com")
+														span.glyphicon.glyphicon-home(style="margin-right:5px;")
+														| Home
+													a.btn.btn-default(href="https://github.com/NUKnightLab/Picture-Story/archive/master.zip")
+														span.glyphicon.glyphicon-save(style="margin-right:5px;")
+														| Download the Template
+													a.btn.btn-default(href="https://github.com/NUKnightLab/Picture-Story")
+														span.icon-github(style="margin-right:5px;")
+														| GitHub
+						li
+							a#stories-btn(href="#")
+								span.icon-stack(style="margin-right:5px;")
+								| More Stories
+						li#navbar-title
+							| Picture Story
+				div.collapse.navbar-collapse.navbar-right
+					ul.nav.navbar-nav
+						li
+							a.knightlab-logo(href="http://knightlab.northwestern.edu/",target="_blank", title="Knight Lab")
+								img.img-responsive(src="#{path}css/KnightLab-Diamond-Logo-Stroke.png")
+
+mixin footer(story)
+	if story
+		- var path = "../"
+	else 
+		- var path = ""
+	// Footer
+	footer#footer
+		div.about-knightlab
+			div.container-fluid
+				div.row
+					div.col-lg-2.col-md-1.hidden-sm.hidden-xs
+					div.col-lg-2.col-md-3.col-sm-4.col-xs-4.knightlab-logo-column
+						
+						a(href="http://knightlab.northwestern.edu", target="_blank")
+							img.img-responsive(src="#{path}css/logo_stacked_256x256_NOtagline_transparent_padded.png")
+						ul.social.list-inline
+							li
+								a(href="http://www.twitter.com/knightlab", target="_blank", title="Knight Lab on Twitter")
+									span.icon-twitter
+							li
+								a(href="https://www.facebook.com/knightlab", target="_blank", title="Knight Lab on Facebook")
+									span.icon-facebook
+							li
+								a(href="https://github.com/NUKnightLab/", target="_blank", title="Knight Lab on GitHub")
+									span.icon-github
+			
+						address(itemscope="",itemtype="http://data-vocabulary.org/Organization")
+							span.address-name(style="display:none;",itemprop="name",title="Knight Lab | Advancing news media innovation through exploration and experimentation.") Knight Lab
+				
+							span.address(itemprop="address",itemscope="",itemtype="http://data-vocabulary.org/Address")
+								span(itemprop="street-address",class="street-address") 1845 Sheridan Road<br>Fisk #109 &amp; #111, 
+								div.address-group
+									span(itemprop="locality") Evanston,
+									span(itemprop="region") IL. 
+									span(itemprop="postal-code") 60208
+									br
+									a(href="https://maps.google.com/maps?q=1845+Sheridan+Road+Evanston+IL+6020&amp;hl=en&amp;ll=42.050942,-87.673511&amp;spn=0.003059,0.004898&amp;sll=42.050647,-87.674246&amp;sspn=0.012237,0.019591&amp;gl=us&amp;hnear=1845+Sheridan+Rd,+Evanston,+Cook,+Illinois+60201&amp;t=m&amp;z=18&amp;iwloc=A",target="_blank")
+										i + 
+										span map
+									br
+									span.address-country(itemprop="country-name") United States
+
+							span.geo(style="display:none;",itemprop="geo",itemscope="",itemtype="http://www.data-vocabulary.org/Geo/")
+								| Latitude: 
+								span(itemprop="latitude") 42.056893
+								br
+								| Longitude: 
+								span(itemprop="longitude") -87.676735
+				
+							br
+							span.tel(itemprop="tel") (847) 467-4971
+				
+							a.url(style="display:none;",href="http://knightlab.northwestern.edu",itemprop="url") Northwesten University Knight Lab | Advancing media innovation through exploration and experimentation.
+			
+					div.col-lg-5.col-md-6.col-sm-8.col-xs-8
+						div.knightlab-description
+							p The <a title="Northwestern University" href="http://www.northwestern.edu/" target="_blank">Northwestern University</a> Knight Lab is a team of technologists and journalists working at advancing news media innovation through exploration and experimentation.
+							p A joint initiative of the <a href="http://www.mccormick.northwestern.edu/" target="_blank">Robert R. McCormick School of Engineering and Applied Science</a> and the<a href="http://www.medill.northwestern.edu/" target="_blank"> Medill School of Journalism, Media, Integrated Marketing Communications</a>.
+
+							img.img-responsive.logos(src="#{path}css/Logos-Horizontal.png")
+
+			
+					div.col-lg-1.col-md-1.col-sm-1
+	
+				div.row
+					p.copyright
+						| All images &copy; Copyright 2014 Credited Authors |  &copy; Copyright 2014 Northwestern University
+		//
+			div.knightlab-projects
+
+				include footer-storybar
+
+	// JavaScript
+	if story
+
+	else
+		script(type='text/javascript').
+			var path = "";
+	script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+	script(type='text/javascript', src='#{path}js/project.js?v10')

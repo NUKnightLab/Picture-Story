@@ -4,9 +4,7 @@ include includes/mixins
 
 body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 
-	// NAVBAR NAVIGATION
-	include sections/navbar 
-	// END NAVBAR
+	+navbar(false)
 	
 	// Large image in Outside Grid
 	article
@@ -72,4 +70,4 @@ body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 						figcaption 
 							| Fans of Tia Jean Crist wore Burger King crowns adorned with sparkling letters that say "Tia 4 Queen."
 
-	include sections/footer
+	+footer()

@@ -3,7 +3,7 @@ include includes/mixins
 +head("Veterens Day")
 
 body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
-	include sections/navbar
+	+navbar(false)
 	
 	article
 		section.container
@@ -71,4 +71,4 @@ body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 							p Ulla feugiat. Issequis dolor alit, seniat lore conullam eum dignibh exeraesenit velent prat.
 							p Ro dolut prat incilit nibh enim ad eummodio odolore facing eugiam quat vel esequat. Tie tionseq uismolore volore eril dunt. auguerUt. ing etum quam, quamconUllam, velenimObore te dit ver senis augait aliscincipit alisi bla facilla metuer iriuscipit luptat ad
 
-	include sections/footer		
+		+footer()

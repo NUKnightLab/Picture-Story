@@ -1,12 +1,10 @@
 include ../includes/mixins
 
-+head-stories("The Pumpkin Queen")
++head("The Pumpkin Queen", true)
 
 body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 
-	// NAVBAR NAVIGATION
-	include ../sections/navbar 
-	// END NAVBAR
+	+navbar(true)
 
 	// STORY COVER
 	section#story-cover
@@ -105,4 +103,4 @@ body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
 				
 				div.col-md-3
 
-	include ../sections/footer-stories
+	+footer(true)
