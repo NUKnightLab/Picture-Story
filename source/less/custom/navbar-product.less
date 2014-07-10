@@ -3,18 +3,10 @@ header.navigation {
 		z-index:20;
 		border-radius:0;
 		border:0;
-		//position:relative;
 		position:static;
 		top:0;
 		margin:0;
-		//margin-top:254px;
 		background-color: transparent;
-		//background-color:rgba(255,255,255,1);
-		//border-top: 2px solid #666;
-		//.box-shadow( 0px -4px 4px rgba(0,0,0,1));
-		//.box-shadow( 0px -4px -4px rgba(0,0,0,.25));
-
-		//.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
 		border-bottom: 1px solid transparent;
 		
 		.container-fluid {
@@ -24,7 +16,7 @@ header.navigation {
 		&.in-article {
 			background-color:rgba(255,255,255,0.95);
 			border-bottom: 1px solid #CCC;
-			.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
+			//.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
 			
 			.navbar-brand-knightlab,
 			#navbar-title {
@@ -38,6 +30,9 @@ header.navigation {
 			
 			#stories-btn {
 				color:#999;
+				&:hover {
+					color:#000;
+				}
 			}
 			#navbar-title {
 				color:#000;
@@ -63,9 +58,13 @@ header.navigation {
 			li a {
 				color: #777777;
 			}
+			.navbar-nav > li > a.knightlab-logo {
+				padding:0;
+				padding-top:5px;
+			}
 			.knightlab-logo {
 				img {
-					height:32px;
+					height:40px;
 					margin-right:10px;
 			
 					padding:0;
@@ -128,6 +127,15 @@ header.navigation {
 			&:hover {
 				color:#DDD;
 			}
+			&.open {
+				background-color:#000;
+				border: 1px solid #999;
+				border-top:0;
+				color:#FFF;
+				&:hover {
+					color:#CCC;
+				}
+			}
 			.icon-stack {
 				//font-size:18px;
 				//margin-top:5px;
@@ -140,11 +148,6 @@ header.navigation {
 			img {
 				height:76px;
 				margin-right:0px;
-				//.box-shadow( 0px 4px 4px rgba(0,0,0,1));
-				//padding:15px;
-				//background-color:rgba(255,255,255,0.8);
-				//border: 1px solid #fff;
-				//border-radius:50%;
 			}
 			
 			b.caret {

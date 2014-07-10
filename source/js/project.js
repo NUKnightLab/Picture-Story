@@ -15,7 +15,7 @@
 // @codekit-prepend "source/bootstrap/scrollspy.js";
 // @codekit-prepend "source/bootstrap/tab.js";
 // @codekit-prepend "source/bootstrap/tooltip.js";
-// @codekit-prepend "source/bootstrap/carousel.js";
+// "source/bootstrap/carousel.js";
 // @codekit-prepend "source/bootstrap/collapse.js";
 // @codekit-prepend "source/bootstrap/modal.js";
 // @codekit-prepend "source/bootstrap/dropdown.js";
@@ -43,13 +43,13 @@ $(document).ready(function(){
 	
 	/*	STORY NAV BAR
 	================================================== */
-	
 	function loadStoryBarStories(json_url, storybar_id) {
 		//$( "#navbar-story" ).html( the_title );
 		$.getJSON( json_url, function(d) {
 			var number_of_stories = d.stories.length,
 				column_width,
 				story_container = $( storybar_id + " .row" ).first(),
+				story_container_height,
 				many_stories = false,
 				stories = {
 					small: [],
@@ -138,12 +138,18 @@ $(document).ready(function(){
 				}
 				
 				// SIZE
-				storybar_small_height = $(story_container).height() / small_rows;
+				story_container_height = $(story_container).height();
+				
+				if (story_container_height < 250) {
+					story_container_height = 250;
+				}
+				
+				storybar_small_height = story_container_height / small_rows;
 				$( small_stories_element).find( ".story-item" ).height(storybar_small_height);
 				$( small_stories_element).find( ".story-item-container" ).height(storybar_small_height);
 				$( small_stories_element).find( ".story-item-background" ).height(storybar_small_height);
 				
-				storybar_large_height = $(story_container).height() / large_rows;
+				storybar_large_height = story_container_height / large_rows;
 				$( story_container).find( ".story-item.tall" ).height(storybar_large_height);
 				$( story_container).find( ".story-item.tall .story-item-container" ).height(storybar_large_height);
 				$( story_container).find( ".story-item.tall .story-item-background" ).height(storybar_large_height);
@@ -326,17 +332,17 @@ $(document).ready(function(){
 	
 	/*	NAVIGATION NAVBAR STORIES
 	================================================== */
-	
 	$('#stories-btn').click(function() {
 		event.preventDefault();
 		if (_story_nav_active) {
 			showNavbarStories();
+			$(this).removeClass("open");
 		} else {
 			showNavbarStories(true);
+			$(this).addClass("open");
 		}
 		
 	});
-	
 	
 	/*	Way Point Article
 	================================================== */
@@ -424,31 +430,41 @@ $(document).ready(function(){
 
 	});
 	
-	/*	Fluid Box
+	/*	ZOOMABLE IMAGES
 	================================================== */
-	 $('.enlarge').fluidbox({
-	 	viewportFill:0.85
-	 });
-	 
-	/*	Fancy Box
-	================================================== */
-	/*
-	$(".enlarge").fancybox({
-		openEffect: 'elastic',
-		closeEffect: 'elastic',
-		padding: 1,
-		loop: false,
-		helpers: {
-			title: {
-				type: 'inside'
-			},
-			thumbs: {
-				width	: 50,
-				height	: 50
-			
-		}
-	});
-	*/
+	// Find Images and make them zoomable
+	function makeImagesZoomable() {
+		$( "figure" ).each(function(figure) {
+			if ($(this).find( "a img" ).length ) {
+				trace("FOUND ZOOM READY IMAGE");
+			} else {
+				var img_url,
+					el_link = createElement("a", "enlarge"),
+					el_img = $(this).find("img");
+					
+					
+				img_url = $(this).find("img").attr("data-src");
+				
+				if (img_url == undefined) {
+					img_url = $(this).find("img").attr("src");
+				}
+				
+				$( el_img ).detach();
+				
+				$(el_link).attr("href", img_url);
+				$(el_link).append(el_img);
+				$(this).prepend(el_link);
+				
+
+			}
+		});
+		
+		$('.enlarge').fluidbox({
+		 	viewportFill:0.85
+		});
+		
+	}
+	
 	
 	/*	Smooth Scroll
 	================================================== */
@@ -458,25 +474,17 @@ $(document).ready(function(){
 	
 	/*	Laziest Loader
 	================================================== */
-	/*
-	 $("img").laziestloader({}, function() {
-	     this.style.opacity = 1;
-	 });
-	*/
-	// $("img").laziestloader();
-	 $("img").laziestloader();
+	$("img").laziestloader();
 	 
-	 $('img').load(function() {
-	     console.log('Image Loaded');
-		 this.style.opacity = 1;
-	 });
+	$('img').load(function() {
+		this.style.opacity = 1;
+	});
 	 
  	/*	Init
  	================================================== */
-	//showNavbarStories(false);
-	//loadNavBarStories();
 	loadStoryBarStories("../stories.json", "#navbar-story");
-	loadStoryBarStories("../footer_stories.json", "#footer-storybar");
+	//loadStoryBarStories("../footer_stories.json", "#footer-storybar");
+	makeImagesZoomable();
 	
 });
 

@@ -1,31 +1,27 @@
-include includes/mixins
+include ../includes/mixins
 
-+head("The Pumpkin Queen")
++head-stories("The Pumpkin Queen")
 
-body(data-spy='scroll',data-target='.subnav',data-offset='80')
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
 	// NAVBAR NAVIGATION
-	include sections/navbar 
+	include ../sections/navbar 
 	// END NAVBAR
+
+	// STORY COVER
 	section#story-cover
-		div.story-cover-image(style="background-image: url('photos/pumpkin_queen/pumpkin_8364.jpg');")
+		div.story-cover-image(style="background-image: url('../photos/pumpkin_queen/pumpkin_8364.jpg');")
 		div.story-cover-arrow
 		div.story-cover-content
-			h1.extra-large The Pumpkin Queen
+			h1 The Pumpkin Queen
 			p.lead Circleville's Annual Pumpkin Show crowns Courtney Congrove Pumpkin Queen for 2005
-			p.byline by AUTHOR NAME
-			p.byline Photographs by AUTHOR NAME
-
+			p.byline by ZACH WISE
+			p.byline Photographs by ZACH WISE
+	section.story-cover-caption
+		div.caption
+			| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
+			| id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 	article.lazyload
-		
-		// Large image in Outside Grid
-
-		section.full-width
-			figure
-				figcaption.credit Photographer Name
-				figcaption 
-					| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
-					| id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-
 		section.container-fluid
 
 			div.row
@@ -43,10 +39,11 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 				div.col-md-3
 
 			div.row
-				div.col-md-12
+				div.col-md-2
+				div.col-md-8
 					figure
-						a.enlarge(href="photos/pumpkin_queen/pumpkin_8314.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/pumpkin_queen/pumpkin_8314.jpg")
+						a.enlarge(href="../photos/pumpkin_queen/pumpkin_8314.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/pumpkin_queen/pumpkin_8314.jpg")
 						figcaption.credit Zach Wise
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
@@ -58,8 +55,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 				
 					p This year’s winner was Courtney Congrove. Many fans from Courtney’s Zane Trace high school supported her by wearing green t-shirts that read, “Courtney, Our pick of the patch.”
 					figure.figure-pull-right
-						a.enlarge(href="photos/pumpkin_queen/pumpkin_8170.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/pumpkin_queen/pumpkin_8170.jpg")
+						a.enlarge(href="../photos/pumpkin_queen/pumpkin_8170.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/pumpkin_queen/pumpkin_8170.jpg")
 						figcaption.credit Zach Wise
 					p When the judges announced Congrove as this year’s Pumpkin Queen, she said, “I just looked out to my family and just waved and said it’s all because of them.”
 				
@@ -71,8 +68,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 			div.row
 				div.col-md-6
 					figure
-						a.enlarge(href="photos/pumpkin_queen/pumpkin_8386.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/pumpkin_queen/pumpkin_8386.jpg")
+						a.enlarge(href="../photos/pumpkin_queen/pumpkin_8386.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/pumpkin_queen/pumpkin_8386.jpg")
 						figcaption.credit Zach Wise
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
@@ -80,8 +77,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 				div.col-md-6
 
 					figure
-						a.enlarge(href="photos/pumpkin_queen/pumpkin_8179.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/pumpkin_queen/pumpkin_8179.jpg")
+						a.enlarge(href="../photos/pumpkin_queen/pumpkin_8179.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/pumpkin_queen/pumpkin_8179.jpg")
 						figcaption.credit Zach Wise
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
@@ -98,8 +95,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 					p Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum. Donec porttitor ligula eu dolor. Maecenas vitae nulla consequat libero cursus venenatis. Nam magna enim, accumsan eu, blandit sed, blandit a, eros.
 				
 					figure
-						a.enlarge(href="photos/pumpkin_queen/pumpkin_8175.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/pumpkin_queen/pumpkin_8175.jpg")
+						a.enlarge(href="../photos/pumpkin_queen/pumpkin_8175.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/pumpkin_queen/pumpkin_8175.jpg")
 						figcaption.credit Zach Wise
 						figcaption 
 							| Fans of Tia Jean Crist wore Burger King crowns adorned with sparkling letters that say "Tia 4 Queen."
@@ -107,9 +104,5 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 					p Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit amet rhoncus ornare, erat elit consectetuer erat, id egestas pede nibh eget odio. Proin tincidunt, velit vel porta elementum, magna diam molestie sapien, non aliquet massa pede eu diam.
 				
 				div.col-md-3
-				
 
-
-
-
-	include sections/footer
+	include ../sections/footer-stories

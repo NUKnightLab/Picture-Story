@@ -39,6 +39,46 @@
 			"background": {			
 				"url": 	"../photos/thumbs/jackie.jpg"
 			}
+		},
+		{
+			"url": 		"luhands.html",
+			"headline": "In Lucille's Hands",
+			"deck": 	"Most seniors by the age of 81 are living in nursing homes, but Lucille Caravette is holding her own.",
+			"byline": 	"by MARTINE GRANBY",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/luhands.jpg"
+			}
+		},
+		{
+			"url": 		"pumpkin_queen_alt.html",
+			"headline": "The Pumpkin Queen",
+			"deck": 	"",
+			"byline": 	"by ZACH WISE",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/pumpkin_queen.jpg"
+			}
+		},
+		{
+			"url": 		"driving_force.html",
+			"headline": "Driving Force",
+			"deck": 	"",
+			"byline": 	"by ZACH WISE",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/drivingforce.jpg"
+			}
+		},
+		{
+			"url": 		"veterans_alt.html",
+			"headline": "Veteran's Day",
+			"deck": 	"",
+			"byline": 	"by ZACH WISE",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/veterans.jpg"
+			}
 		}
 	]
 }

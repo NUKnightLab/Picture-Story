@@ -130,6 +130,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/compiled\/driving_force.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/driving_force.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/compiled\/js\/holder.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -823,6 +841,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/compiled\/photos\/luhands\/_DSC0041.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266788,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0041.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0041.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/_DSC0274.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400271,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0274.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0274.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/_DSC0388.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 453100,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0388.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/_DSC0388.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/LuBacon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 311073,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/LuBacon.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/LuBacon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/ludaughter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 428415,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/ludaughter.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/ludaughter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Luhall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341708,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luhall.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luhall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Lupantry.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 350654,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lupantry.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lupantry.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Luplayroom.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400859,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luplayroom.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luplayroom.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Lupotrait.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 292129,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lupotrait.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lupotrait.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Lusteps.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169107,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lusteps.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Lusteps.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/luhands\/Luwork.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297657,
+		"inputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luwork.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/luhands\/Luwork.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/compiled\/photos\/pumpkin_queen\/pumpkin_8170.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -900,6 +1039,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/compiled\/photos\/thumbs\/drivingforce.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40331,
+		"inputAbbreviatedPath": "\/compiled\/photos\/thumbs\/drivingforce.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/thumbs\/drivingforce.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/compiled\/photos\/thumbs\/farm.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -929,6 +1079,17 @@
 		"initialSize": 131494,
 		"inputAbbreviatedPath": "\/compiled\/photos\/thumbs\/lashonda.jpg",
 		"outputAbbreviatedPath": "\/compiled\/photos\/thumbs\/lashonda.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/compiled\/photos\/thumbs\/luhands.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81558,
+		"inputAbbreviatedPath": "\/compiled\/photos\/thumbs\/luhands.jpg",
+		"outputAbbreviatedPath": "\/compiled\/photos\/thumbs\/luhands.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1009,6 +1170,96 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/compiled\/pumpkin_queen.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/pumpkin_queen.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/pumpkin_queen_alt.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/pumpkin_queen_alt.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/cattleranchers.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/cattleranchers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/farm.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/farm.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/jackie.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/jackie.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/lashonda.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/lashonda.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/luhands.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/luhands.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/pumpkin_queen_alt.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/pumpkin_queen_alt.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/stories\/veterans_alt.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/stories\/veterans_alt.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/compiled\/veterans.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/compiled\/veterans.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/compiled\/veterans_alt.html": {
 		"fileType": 8192,
@@ -1091,17 +1342,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/pumpkin_queen.jade",
 		"outputAbbreviatedPath": "\/compiled\/pumpkin_queen.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/source\/jade\/pumpkin_queen_alt.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/jade\/pumpkin_queen_alt.jade",
-		"outputAbbreviatedPath": "\/compiled\/pumpkin_queen_alt.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -1249,6 +1489,28 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/source\/jade\/stories\/luhands.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/jade\/stories\/luhands.jade",
+		"outputAbbreviatedPath": "\/compiled\/stories\/luhands.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/source\/jade\/stories\/pumpkin_queen_alt.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/jade\/stories\/pumpkin_queen_alt.jade",
+		"outputAbbreviatedPath": "\/compiled\/stories\/pumpkin_queen_alt.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/source\/jade\/stories\/source\/cattleranchers.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1285,6 +1547,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/jade\/stories\/source\/luhands.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/jade\/stories\/source\/luhands.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/source\/jade\/stories\/veterans_alt.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/jade\/stories\/veterans_alt.jade",
+		"outputAbbreviatedPath": "\/compiled\/stories\/veterans_alt.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/source\/jade\/veterans.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1292,17 +1574,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/jade\/veterans.jade",
 		"outputAbbreviatedPath": "\/compiled\/veterans.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/source\/jade\/veterans_alt.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/jade\/veterans_alt.jade",
-		"outputAbbreviatedPath": "\/compiled\/veterans_alt.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -1364,7 +1635,7 @@
 		},
 	"\/source\/js\/source\/bootstrap\/carousel.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/js\/source\/bootstrap\/carousel.js",
 		"outputAbbreviatedPath": "\/source\/js\/source\/bootstrap\/min\/carousel-ck.js",
@@ -2960,6 +3231,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/source\/less\/custom\/article.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/less\/custom\/article.less",
+		"outputAbbreviatedPath": "\/source\/less\/css\/article.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/source\/less\/custom\/blockquote.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -3372,7 +3663,7 @@
 		"outputAbbreviatedPath": "\/compiled\/css\/picturestory-bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"relativeURLS": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,

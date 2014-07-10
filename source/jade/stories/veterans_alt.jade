@@ -1,24 +1,27 @@
-include includes/mixins
+include ../includes/mixins
 
-+head("Veterens Day")
++head-stories("Veteren's Day")
 
-body(data-spy='scroll',data-target='.subnav',data-offset='80')
+body#top(data-spy='scroll',data-target='.subnav',data-offset='80')
+
+	// NAVBAR NAVIGATION
+	include ../sections/navbar 
+	// END NAVBAR
+
+	// STORY COVER
+	section#story-cover
+		div.story-cover-image(style="background-image: url('../photos/veterans/vet_9658.jpg');")
+		div.story-cover-arrow
+		div.story-cover-content
+			h1 Veteran's Day
+			p.lead 
+			p.byline by Zach Wise
+			p.byline Photographs by Zach Wise
+	section.story-cover-caption
+		div.caption
+			| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
+			| id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 	article.lazyload
-
-		// Large image in Outside Grid
-		section.full-width
-			figure
-				img.img-responsive(src="photos/transparent.gif", data-src="photos/veterans/vet_9658.jpg")
-				figcaption.credit Photographer Name
-				figcaption 
-					| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
-					| id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-			div.title-on-photo
-				div.title-on-photo-container
-					h1.extra-large Veteran's Day
-					p.byline by AUTHOR NAME
-					p.byline Photographs by AUTHOR NAME
-
 		section.container-fluid
 
 			div.row
@@ -36,8 +39,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 				div.col-md-3
 				div.col-md-6
 					figure
-						a.enlarge(href="photos/veterans/vet_9789.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/veterans/vet_9789.jpg")
+						a.enlarge(href="../photos/veterans/vet_9789.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/veterans/vet_9789.jpg")
 						figcaption.credit Zach Wise
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
@@ -62,8 +65,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 
 				div.col-md-5
 					figure
-						a.enlarge(href="photos/veterans/vet_9803.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/veterans/vet_9803.jpg")
+						a.enlarge(href="../photos/veterans/vet_9803.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/veterans/vet_9803.jpg")
 						figcaption.credit Photographer Name
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
@@ -71,8 +74,8 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 
 				div.col-md-5
 					figure
-						a.enlarge(href="photos/veterans/vet_9824.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/veterans/vet_9824.jpg")
+						a.enlarge(href="../photos/veterans/vet_9824.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/veterans/vet_9824.jpg")
 						figcaption.credit Photographer Name
 						figcaption Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque
 
@@ -95,19 +98,12 @@ body(data-spy='scroll',data-target='.subnav',data-offset='80')
 
 				div.col-md-8
 					figure
-						a.enlarge(href="photos/veterans/vet_9633.jpg", rel="enlarge")
-							img.img-responsive(src="photos/transparent.gif", data-src="photos/veterans/vet_9633.jpg")
+						a.enlarge(href="../photos/veterans/vet_9633.jpg", rel="enlarge")
+							img.img-responsive(src="../photos/transparent.gif", data-src="../photos/veterans/vet_9633.jpg")
 						figcaption.credit Photographer Name
 						figcaption 
 							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, 
 							| id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 				div.col-md-2
 
-
-
-				
-
-
-
-
-	include sections/footer
+	include ../sections/footer-stories
