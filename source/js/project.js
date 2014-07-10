@@ -516,7 +516,7 @@ $(document).ready(function(){
  	/*	Init
  	================================================== */
 	loadStoryBarStories(_path + "stories.json", "#navbar-story");
-	//loadStoryBarStories("../footer_stories.json", "#footer-storybar");
+	loadStoryBarStories(_path + "footer_stories.json", "#footer-storybar");
 	makeImagesZoomable();
 	
 });
