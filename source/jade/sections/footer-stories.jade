@@ -1,9 +1,99 @@
 // Footer
 footer#footer
-	div.container
-		p.copyright
-			| All images &copy; 2014
+	
+	div.about-knightlab
+		div.container-fluid
+			div.row
+				div.col-lg-2.col-md-1.hidden-sm.hidden-xs
+				div.col-lg-2.col-md-3.col-sm-4.col-xs-4.knightlab-logo-column
+					//img.img-responsive(src="../css/knightlab-logo-diamond-190.png")
+					a(href="http://knightlab.northwestern.edu", target="_blank")
+						//img.img-responsive(src="../css/kngihtlab-logo-NOtagline.png")
+						img.img-responsive(src="../css/logo_stacked_256x256_NOtagline_transparent_padded.png")
+					ul.social.list-inline
+						li
+							a(href="http://www.twitter.com/knightlab", target="_blank", title="Knight Lab on Twitter")
+								span.icon-twitter
+						li
+							a(href="https://www.facebook.com/knightlab", target="_blank", title="Knight Lab on Facebook")
+								span.icon-facebook
+						li
+							a(href="https://github.com/NUKnightLab/", target="_blank", title="Knight Lab on GitHub")
+								span.icon-github
+					//
+						ul.list-unstyled
+							li
+								a(href="http://knightlab.northwestern.edu/about/", target="_blank") About Knight Lab
+							li
+								a(href="http://projects.knightlab.com/", target="_blank") View our projects
+							li
+								a(href="http://knightlab.northwestern.edu/news/", target="_blank") Latest News
+							li
+								a(href="http://knightlab.northwestern.edu/events/", target="_blank") Upcoming Events
+							li
+								a(href="https://twitter.com/knightlab", target="_blank") <i class="icon-twitter"></i>@knightlab
+				
+					address(itemscope="",itemtype="http://data-vocabulary.org/Organization")
+						span.address-name(style="display:none;",itemprop="name",title="Knight Lab | Advancing news media innovation through exploration and experimentation.") Knight Lab
+					
+						span.address(itemprop="address",itemscope="",itemtype="http://data-vocabulary.org/Address")
+							span(itemprop="street-address",class="street-address") 1845 Sheridan Road<br>Fisk #109 &amp; #111, 
+							div.address-group
+								span(itemprop="locality") Evanston,
+								span(itemprop="region") IL. 
+								span(itemprop="postal-code") 60208
+								br
+								a(href="https://maps.google.com/maps?q=1845+Sheridan+Road+Evanston+IL+6020&amp;hl=en&amp;ll=42.050942,-87.673511&amp;spn=0.003059,0.004898&amp;sll=42.050647,-87.674246&amp;sspn=0.012237,0.019591&amp;gl=us&amp;hnear=1845+Sheridan+Rd,+Evanston,+Cook,+Illinois+60201&amp;t=m&amp;z=18&amp;iwloc=A",target="_blank")
+									i + 
+									span map
+								br
+								span.address-country(itemprop="country-name") United States
 
+						span.geo(style="display:none;",itemprop="geo",itemscope="",itemtype="http://www.data-vocabulary.org/Geo/")
+							| Latitude: 
+							span(itemprop="latitude") 42.056893
+							br
+							| Longitude: 
+							span(itemprop="longitude") -87.676735
+					
+						br
+						span.tel(itemprop="tel") (847) 467-4971
+					
+						a.url(style="display:none;",href="http://knightlab.northwestern.edu",itemprop="url") Northwesten University Knight Lab | Advancing media innovation through exploration and experimentation.
+				
+				div.col-lg-5.col-md-6.col-sm-8.col-xs-8
+					div.knightlab-description
+						p The <a title="Northwestern University" href="http://www.northwestern.edu/" target="_blank">Northwestern University</a> Knight Lab is a team of technologists and journalists working at advancing news media innovation through exploration and experimentation.
+						p A joint initiative of the <a href="http://www.mccormick.northwestern.edu/" target="_blank">Robert R. McCormick School of Engineering and Applied Science</a> and the<a href="http://www.medill.northwestern.edu/" target="_blank"> Medill School of Journalism, Media, Integrated Marketing Communications</a>.
+
+						img.img-responsive.logos(src="../css/Logos-Horizontal.png")
+
+				
+				div.col-lg-1.col-md-1.col-sm-1
+				//
+					div.col-md-3.col-sm-3
+						//img.img-responsive.logos(src="../css/Logos.png")
+				
+						h3 Learn More
+						ul.list-unstyled
+							li
+								a(href="http://knightlab.northwestern.edu/about/", target="_blank") About Knight Lab
+							li
+								a(href="http://projects.knightlab.com/", target="_blank") View our projects
+							li
+								a(href="http://knightlab.northwestern.edu/news/", target="_blank") Latest News
+							li
+								a(href="http://knightlab.northwestern.edu/events/", target="_blank") Upcoming Events
+							li
+								a(href="https://twitter.com/knightlab", target="_blank") <i class="icon-twitter"></i>@knightlab
+		
+			div.row
+				p.copyright
+					| All images &copy; Copyright 2014 Credited Authors |  &copy; Copyright 2014 Northwestern University
+	//
+		div.knightlab-projects
+
+			include footer-storybar
 // JavaScript
 script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
 script(type='text/javascript', src='../js/project.js?v10')

@@ -1,0 +1,164 @@
+{
+	"stories": [
+		{
+			"url": 		"cattleranchers.html",
+			"headline": "Treating Sick Meat",
+			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
+			"byline": 	"Photographs by ELISSA NADWORNY",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/cattleranchers.jpg"
+			}
+		},
+		{
+			"url": 		"lashonda.html",
+			"headline": "Walking with LaShonda",
+			"deck": 	"A Day in the Life of a student on the West Side",
+			"byline": 	"by CHRISTINA CALA",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/lashonda.jpg"
+			}
+		},
+		{
+			"url": 		"farm.html",
+			"headline": "Farming for the Future",
+			"deck": 	"Bucking four generations of tradition, cattleman Will Harris changed the way he farmed to leave behind a better land.",
+			"byline": 	"by Homa Bash",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/farm.jpg"
+			}
+		},
+		{
+			"url": 		"jackie.html",
+			"headline": "Raising the Bar",
+			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
+			"byline": 	"by MONIKA WNUK",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/jackie.jpg"
+			}
+		},
+		{
+			"url": 		"cattleranchers.html",
+			"headline": "Treating Sick Meat",
+			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
+			"byline": 	"Photographs by ELISSA NADWORNY",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/cattleranchers.jpg"
+			}
+		},
+		{
+			"url": 		"lashonda.html",
+			"headline": "Walking with LaShonda",
+			"deck": 	"A Day in the Life of a student on the West Side",
+			"byline": 	"by CHRISTINA CALA",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/lashonda.jpg"
+			}
+		},
+		{
+			"url": 		"farm.html",
+			"headline": "Farming for the Future",
+			"deck": 	"Bucking four generations of tradition, cattleman Will Harris changed the way he farmed to leave behind a better land.",
+			"byline": 	"by Homa Bash",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/farm.jpg"
+			}
+		},
+		{
+			"url": 		"jackie.html",
+			"headline": "Raising the Bar",
+			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
+			"byline": 	"by MONIKA WNUK",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/jackie.jpg"
+			}
+		},
+		{
+			"url": 		"farm.html",
+			"headline": "Farming for the Future",
+			"deck": 	"Bucking four generations of tradition, cattleman Will Harris changed the way he farmed to leave behind a better land.",
+			"byline": 	"by Homa Bash",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/farm.jpg"
+			}
+		},
+		{
+			"url": 		"jackie.html",
+			"headline": "Raising the Bar",
+			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
+			"byline": 	"by MONIKA WNUK",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/jackie.jpg"
+			}
+		},
+		{
+			"url": 		"jackie.html",
+			"headline": "Raising the Bar",
+			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
+			"byline": 	"by MONIKA WNUK",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/jackie.jpg"
+			}
+		},
+		{
+			"url": 		"jackie.html",
+			"headline": "Raising the Bar",
+			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
+			"byline": 	"by MONIKA WNUK",
+			"large": 	"true",
+			"background": {			
+				"url": 	"../photos/thumbs/jackie.jpg"
+			}
+		},
+		{
+			"url": 		"cattleranchers.html",
+			"headline": "Treating Sick Meat",
+			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
+			"byline": 	"Photographs by ELISSA NADWORNY",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/cattleranchers.jpg"
+			}
+		},
+		{
+			"url": 		"lashonda.html",
+			"headline": "Walking with LaShonda",
+			"deck": 	"A Day in the Life of a student on the West Side",
+			"byline": 	"by CHRISTINA CALA",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/lashonda.jpg"
+			}
+		},
+		{
+			"url": 		"cattleranchers.html",
+			"headline": "Treating Sick Meat",
+			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
+			"byline": 	"Photographs by ELISSA NADWORNY",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/cattleranchers.jpg"
+			}
+		},
+		{
+			"url": 		"lashonda.html",
+			"headline": "Walking with LaShonda",
+			"deck": 	"A Day in the Life of a student on the West Side",
+			"byline": 	"by CHRISTINA CALA",
+			"large": 	"false",
+			"background": {			
+				"url": 	"../photos/thumbs/lashonda.jpg"
+			}
+		}
+	]
+}

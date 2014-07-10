@@ -140,11 +140,11 @@ header.navigation {
 			img {
 				height:76px;
 				margin-right:0px;
-			
-				padding:15px;
-				background-color:rgba(255,255,255,0.8);
-				border: 1px solid #fff;
-				border-radius:50%;
+				//.box-shadow( 0px 4px 4px rgba(0,0,0,1));
+				//padding:15px;
+				//background-color:rgba(255,255,255,0.8);
+				//border: 1px solid #fff;
+				//border-radius:50%;
 			}
 			
 			b.caret {
@@ -157,6 +157,13 @@ header.navigation {
 			color:#FFF;
 			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 		}
+		.dropdown.open {
+			.navbar-brand-knightlab,
+			#navbar-title {
+				color:#333;
+				text-shadow:none;
+			}
+		}
 		
 		.navbar-brand-knightlab {
 			z-index:5;
@@ -164,7 +171,7 @@ header.navigation {
 			//color:#FFF;
 			font-size: 24px;
 			//text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
-			font-family: "Salvo Serif Cond",Georgia,"Times New Roman",Times,serif;
+			font-family: @font-family-knightlab-brand;
 			font-style: italic;
 			
 		
@@ -266,7 +273,7 @@ header.navigation {
 					h3 {
 						font-size:16px;
 						font-weight:bold;
-						font-family: 'Turnip RE', Georgia, 'Times New Roman', Times, serif;
+						font-family: @font-family-knightlab-primary;
 						margin-top:0;
 					}
 				}

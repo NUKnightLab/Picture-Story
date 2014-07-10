@@ -1,9 +1,82 @@
 footer {
-	padding-top:50px;
-	font-family: @font-family-sans-serif;
-	color:#CCC;
-	background-color:#999;
-	font-style:italic;
+	//padding-top:50px;
+	font-family: @font-family-knightlab-secondary;
+	color:#666;
+	//background-color:#999;
+	background-color:#F3F3F3;
+	//font-style:italic;
 	position:relative;
 	z-index:1;
+	font-size:14px;
+	//padding-bottom:50px;
+	#footer-storybar {
+		h2 {
+			margin:0;
+			padding-top:20px;
+			padding-bottom:20px;
+			font-size:24px;
+			background-color:#CCC;
+			font-family: @font-family-knightlab-secondary;
+			text-align:center;
+		}
+		
+	}
+	.about-knightlab {
+		padding-top:50px;
+		//.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
+		z-index:100;
+		display:relative;
+		.box-shadow( 0px 4px 4px rgba(0,0,0,.5));
+	}
+	.knightlab-description {
+		border-left: 1px solid #CCC;
+		padding-left:20px;
+	}
+	.knightlab-logo-column {
+		text-align:center;
+		img {
+			margin-left:auto;
+			margin-right:auto;
+		}
+		ul {
+			//padding-left:30%;
+			//margin-top:50px;
+		}
+		a {
+			color:#999;
+		}
+	}
+	
+	ul.social {
+		font-size:24px;
+		text-align:center;
+		margin-top:20px;
+		a {
+			&:hover {
+				color:@link-hover-color;
+			}
+		}
+	}
+	
+	img.logos {
+		padding-left:20px;
+	}
+	h3 {
+		margin-top:0;
+		font-family: @font-family-knightlab-secondary;
+		font-size:24px;
+	}
+	.copyright {
+		color:#BBB;
+		margin-top:75px;
+	}
+	address {
+		display:none;
+		margin-top:10px;
+		padding-left:28%;
+		font-family: @font-family-knightlab-secondary;
+		font-size:14px;
+		text-transform: uppercase;
+		color:#999;
+	}
 }

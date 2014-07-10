@@ -1,197 +1,27 @@
-header.navigation {
-	#navbar-story {
-		z-index:1;
-		//position:static;
-		//position:fixed;
-		top:0;
-		left:0;
-		width:100%;
-		//.box-shadow( 0px 4px 4px rgba(0,0,0,.25));
-		background-color:#333;
-		border:0;
-		border-radius:0;
-		border-top: 2px solid #666;
-		border-bottom: 2px solid #666;
-		//border: 12px solid #FFF;
-		//border-top: 12px solid #FFF;
-		//border-bottom: 2px solid #FFF;
-	
-		.box-shadow( inset 0 0 50px rgba(0,0,0,1));
-	      		//box-shadow: inset 0 0 10px rgba(0,0,0,1);
-		//padding-left:28px;
-		//padding-right:28px;		
-		margin-bottom:0;
-		
-		[class*="col-"] {
-			padding:0px;
-		}
-	
-		.row {
-			margin-left: 0;
-			margin-right: 0;
-			&.row-with-trim {
-				border-bottom: 1px solid #666;
-				.story-item, a.story-item {
-					height:123px;
-				}
-			}
-		}
-	
-		&:hover {
-			.story-item, a.story-item {
-				.story-item-background {
-					-webkit-filter: grayscale(0);
-					-moz-filter: grayscale(0);
-					filter: grayscale(0);
-				}
-			}
-		}
-	
-		.navbar-story-navigation {
-			position:absolute;
-			left:0;
-			top:0;
-			width:100%;
-			//z-index:25;
-			margin:0;
-			font-size:24px;
-			padding-top:100px;
-			color:#CCC;
-		
-			.next {
-				position:absolute;
-				right:0;
-				margin-right:3px;
-			}
-			.prev {
-				position:absolute;
-				left:0;
-				margin-left:3px;
-			}
-		}
-	
-		.story-item, a.story-item {
 
-			display:block;
-			position:relative;
-			//padding:5px;
-			min-height:90px;
-			border-color: #e7e7e7;
-			border-right: 1px solid #666;
-			overflow:hidden;
-			//margin:5px;
-			text-align:left;
-			height:125px;
-			background-color:#000;
-		
-			h3 {
-				font-size:15px;
-				text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
-				margin:5px;
-				margin-left:5px;
-				margin-top:5px;
-				//font-weight:700;
-				color:#FFF;
-			}
-	
-			p, p.byline {
-				font-size:12px;
-				line-height:14px;
-				margin:0;
-				margin-left:5px;
-				margin-top:0px;
-				color:#CCC;
-			}
-	
-			p.byline {
-				margin-top:5px;
-			}
-		
+#navbar-story {
+	z-index:1;
+	background-color:#333;
+	margin-top:-60px;
+	.box-shadow( inset 0 0 50px rgba(0,0,0,1));
+	.story-item, a.story-item {
+		background-color:#000;
+		height: 60px;
+		&.tall {
+			height:auto;
 			.story-item-background {
-				z-index:0;
-				position:absolute;
-				top:0;
-				left:0;
-				height:125px;
-				width:100%;
-				opacity: .5;
-				-webkit-filter: grayscale(100%);
-				-moz-filter: grayscale(100%);
-				filter: grayscale(100%);
-				transition: all .3s ease-out;
-				//background-image:url('../photos/driving_force/drivingforce_3439.jpg');
-				background-size:cover;
-				background-position:center center;
-				.box-shadow( inset 0 0 100px rgba(0,0,0,1));
+				height:auto;
 			}
-		
 			.story-item-container {
-				transition: all .3s ease-out;
-				opacity:1;
-				z-index:1;
-				display:table;
-				position:relative;
-				height: 125px;
-				width: 100%;
-				padding-left:5px;
-				padding-right:5px;
-				padding:5px;
-			
-				.story-item-content {
-					display: table-cell;
-					vertical-align: middle;
-					width: 100%;
-					text-align:center;
-					//position:absolute;
-					//bottom:0;
-					padding-bottom:5px;
-					p {
-						display:none;
-						color:#CCC;
-					}
-					p.byline {
-						display:block;
-						color:#CCC;
-					}
-				}
-			}
-		
-			&.tall {
-				height:250px;
-				.story-item-background {
-					height:250px;
-				}
-				.story-item-container {
-					height:250px;
-				}
-			}
-			&:hover {
-				text-decoration:none;
-				.story-item-background {
-					opacity: 1;
-					-webkit-filter: grayscale(0);
-					-moz-filter: grayscale(0);
-					filter: grayscale(0);
-				}
-				.story-item-container {
-					opacity:0;
-					.story-item-content {
-						p {
-							display:none;
-						}
-						p.byline {
-							display:block;
-						}
-						h3, p {
-							text-decoration:none;
-						}
-					}
-		
-				}
+				height:auto;
 			}
 		}
-	
-	
+		.story-item-background, .story-item-container  {
+			
+			height: 60px;
+		}
+		
 	}
-
 }
+
+

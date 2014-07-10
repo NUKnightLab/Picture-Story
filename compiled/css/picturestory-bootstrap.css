@@ -909,7 +909,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #ca4d1d;
   text-decoration: underline;
 }
 a:focus {
@@ -3028,7 +3028,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #2a6496;
+  color: #ca4d1d;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4330,7 +4330,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #2a6496;
+  color: #ca4d1d;
   background-color: #eeeeee;
   border-color: #dddddd;
 }
@@ -6424,6 +6424,7 @@ article {
   z-index: 15;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 100px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #FFF;
@@ -6511,6 +6512,7 @@ span.dropcap {
 .copyright {
   text-align: center;
   font-size: 12px;
+  text-transform: uppercase;
 }
 .caption {
   text-align: left;
@@ -6518,6 +6520,89 @@ span.dropcap {
   color: #666;
   line-height: 14px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*	Better Underline Links
+================================================== */
+.better-underline-links a,
+.better-underline-links-dark a,
+article p a,
+footer p a {
+  color: #666;
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  text-decoration: none;
+  position: relative;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #666666 2px, #666666 3px, rgba(0, 0, 0, 0) 3px);
+}
+.better-underline-links a:hover,
+.better-underline-links-dark a:hover,
+article p a:hover,
+footer p a:hover,
+.better-underline-links a:focus,
+.better-underline-links-dark a:focus,
+article p a:focus,
+footer p a:focus {
+  color: #ca4d1d;
+  text-decoration: none;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .better-underline-links a,
+  .better-underline-links-dark a,
+  article p a,
+  footer p a {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #666666 2px, #666666 2.5px, rgba(0, 0, 0, 0) 2.5px);
+  }
+  .better-underline-links a:hover,
+  .better-underline-links-dark a:hover,
+  article p a:hover,
+  footer p a:hover,
+  .better-underline-links a:focus,
+  .better-underline-links-dark a:focus,
+  article p a:focus,
+  footer p a:focus {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #66abad 2px, #66abad 3px, rgba(0, 0, 0, 0) 3px);
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .better-underline-links a:hover,
+  .better-underline-links-dark a:hover,
+  article p a:hover,
+  footer p a:hover,
+  .better-underline-links a:focus,
+  .better-underline-links-dark a:focus,
+  article p a:focus,
+  footer p a:focus {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #66abad 2px, #66abad 2.5px, rgba(0, 0, 0, 0) 2.5px);
+  }
+}
+.better-underline-links-hover a {
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.better-underline-links-hover a:hover,
+.better-underline-links-hover a:focus {
+  text-decoration: none;
+  position: relative;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #666666 2px, #666666 3px, rgba(0, 0, 0, 0) 3px);
+}
+.better-underline-links-dark a {
+  text-decoration: none;
+  color: #999;
+  text-shadow: -1px -1px 0 #262324, 1px -1px 0 #262324, -1px 1px 0 #262324, 1px 1px 0 #262324;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 2px, #999999 2px, #999999 3px, rgba(0, 0, 0, 0) 3px);
+}
+.centered {
+  text-align: center;
+}
+.related {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 @media (min-width: 480px) {
   h1 {
@@ -6542,13 +6627,71 @@ span.dropcap {
   }
 }
 footer {
-  padding-top: 50px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #CCC;
-  background-color: #999;
-  font-style: italic;
+  font-family: "Apres RE", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+  background-color: #F3F3F3;
   position: relative;
   z-index: 1;
+  font-size: 14px;
+}
+footer #footer-storybar h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  background-color: #CCC;
+  font-family: "Apres RE", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+footer .about-knightlab {
+  padding-top: 50px;
+  z-index: 100;
+  display: relative;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+footer .knightlab-description {
+  border-left: 1px solid #CCC;
+  padding-left: 20px;
+}
+footer .knightlab-logo-column {
+  text-align: center;
+}
+footer .knightlab-logo-column img {
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .knightlab-logo-column a {
+  color: #999;
+}
+footer ul.social {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+footer ul.social a:hover {
+  color: #ca4d1d;
+}
+footer img.logos {
+  padding-left: 20px;
+}
+footer h3 {
+  margin-top: 0;
+  font-family: "Apres RE", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+footer .copyright {
+  color: #BBB;
+  margin-top: 75px;
+}
+footer address {
+  display: none;
+  margin-top: 10px;
+  padding-left: 28%;
+  font-family: "Apres RE", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999;
 }
 blockquote {
   display: block;
@@ -6789,41 +6932,42 @@ header.navigation .divider-vertical {
   border-right: 1px solid #FFF;
   border-left: 1px solid #CCC;
 }
-header.navigation #navbar-story {
-  z-index: 1;
+.storybar {
+  z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #666;
   border: 0;
   border-radius: 0;
-  border-top: 2px solid #666;
-  border-bottom: 2px solid #666;
+  border-bottom: 1px solid #666;
   -webkit-box-shadow: inset 0 0 50px #000000;
   box-shadow: inset 0 0 50px #000000;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 0;
 }
-header.navigation #navbar-story [class*="col-"] {
+.storybar [class*="col-"] {
   padding: 0px;
 }
-header.navigation #navbar-story .row {
+.storybar .row {
   margin-left: 0;
   margin-right: 0;
 }
-header.navigation #navbar-story .row.row-with-trim {
-  border-bottom: 1px solid #666;
-}
-header.navigation #navbar-story .row.row-with-trim .story-item,
-header.navigation #navbar-story .row.row-with-trim a.story-item {
+.storybar .row.row-with-trim .story-item,
+.storybar .row.row-with-trim a.story-item {
   height: 123px;
 }
-header.navigation #navbar-story:hover .story-item .story-item-background,
-header.navigation #navbar-story:hover a.story-item .story-item-background {
+.storybar:hover .story-item .story-item-background,
+.storybar:hover a.story-item .story-item-background {
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   filter: grayscale(0);
 }
-header.navigation #navbar-story .navbar-story-navigation {
+.storybar .small-column {
+  height: 100%;
+}
+.storybar .navbar-story-navigation {
   position: absolute;
   left: 0;
   top: 0;
@@ -6833,30 +6977,28 @@ header.navigation #navbar-story .navbar-story-navigation {
   padding-top: 100px;
   color: #CCC;
 }
-header.navigation #navbar-story .navbar-story-navigation .next {
+.storybar .navbar-story-navigation .next {
   position: absolute;
   right: 0;
   margin-right: 3px;
 }
-header.navigation #navbar-story .navbar-story-navigation .prev {
+.storybar .navbar-story-navigation .prev {
   position: absolute;
   left: 0;
   margin-left: 3px;
 }
-header.navigation #navbar-story .story-item,
-header.navigation #navbar-story a.story-item {
+.storybar .story-item,
+.storybar a.story-item {
+  border-top: 1px solid #666;
   display: block;
   position: relative;
-  min-height: 90px;
-  border-color: #e7e7e7;
   border-right: 1px solid #666;
   overflow: hidden;
   text-align: left;
-  height: 125px;
-  background-color: #000;
+  background-color: #F3F3F3;
 }
-header.navigation #navbar-story .story-item h3,
-header.navigation #navbar-story a.story-item h3 {
+.storybar .story-item h3,
+.storybar a.story-item h3 {
   font-size: 15px;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
   margin: 5px;
@@ -6864,10 +7006,10 @@ header.navigation #navbar-story a.story-item h3 {
   margin-top: 5px;
   color: #FFF;
 }
-header.navigation #navbar-story .story-item p,
-header.navigation #navbar-story a.story-item p,
-header.navigation #navbar-story .story-item p.byline,
-header.navigation #navbar-story a.story-item p.byline {
+.storybar .story-item p,
+.storybar a.story-item p,
+.storybar .story-item p.byline,
+.storybar a.story-item p.byline {
   font-size: 12px;
   line-height: 14px;
   margin: 0;
@@ -6875,17 +7017,22 @@ header.navigation #navbar-story a.story-item p.byline {
   margin-top: 0px;
   color: #CCC;
 }
-header.navigation #navbar-story .story-item p.byline,
-header.navigation #navbar-story a.story-item p.byline {
+.storybar .story-item p.byline,
+.storybar a.story-item p.byline {
   margin-top: 5px;
 }
-header.navigation #navbar-story .story-item .story-item-background,
-header.navigation #navbar-story a.story-item .story-item-background {
+.storybar .story-item .story-item-background,
+.storybar a.story-item .story-item-background,
+.storybar .story-item .story-item-container,
+.storybar a.story-item .story-item-container {
+  height: 60px;
+}
+.storybar .story-item .story-item-background,
+.storybar a.story-item .story-item-background {
   z-index: 0;
   position: absolute;
   top: 0;
   left: 0;
-  height: 125px;
   width: 100%;
   opacity: .5;
   -webkit-filter: grayscale(100%);
@@ -6897,77 +7044,94 @@ header.navigation #navbar-story a.story-item .story-item-background {
   -webkit-box-shadow: inset 0 0 100px #000000;
   box-shadow: inset 0 0 100px #000000;
 }
-header.navigation #navbar-story .story-item .story-item-container,
-header.navigation #navbar-story a.story-item .story-item-container {
+.storybar .story-item .story-item-container,
+.storybar a.story-item .story-item-container {
   transition: all 0.3s ease-out;
   opacity: 1;
   z-index: 1;
   display: table;
   position: relative;
-  height: 125px;
   width: 100%;
   padding-left: 5px;
   padding-right: 5px;
   padding: 5px;
 }
-header.navigation #navbar-story .story-item .story-item-container .story-item-content,
-header.navigation #navbar-story a.story-item .story-item-container .story-item-content {
+.storybar .story-item .story-item-container .story-item-content,
+.storybar a.story-item .story-item-container .story-item-content {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
   text-align: center;
   padding-bottom: 5px;
 }
-header.navigation #navbar-story .story-item .story-item-container .story-item-content p,
-header.navigation #navbar-story a.story-item .story-item-container .story-item-content p {
+.storybar .story-item .story-item-container .story-item-content p,
+.storybar a.story-item .story-item-container .story-item-content p {
   display: none;
   color: #CCC;
 }
-header.navigation #navbar-story .story-item .story-item-container .story-item-content p.byline,
-header.navigation #navbar-story a.story-item .story-item-container .story-item-content p.byline {
+.storybar .story-item .story-item-container .story-item-content p.byline,
+.storybar a.story-item .story-item-container .story-item-content p.byline {
   display: block;
   color: #CCC;
 }
-header.navigation #navbar-story .story-item.tall,
-header.navigation #navbar-story a.story-item.tall {
-  height: 250px;
-}
-header.navigation #navbar-story .story-item.tall .story-item-background,
-header.navigation #navbar-story a.story-item.tall .story-item-background {
-  height: 250px;
-}
-header.navigation #navbar-story .story-item.tall .story-item-container,
-header.navigation #navbar-story a.story-item.tall .story-item-container {
-  height: 250px;
-}
-header.navigation #navbar-story .story-item:hover,
-header.navigation #navbar-story a.story-item:hover {
+.storybar .story-item:hover,
+.storybar a.story-item:hover {
   text-decoration: none;
 }
-header.navigation #navbar-story .story-item:hover .story-item-background,
-header.navigation #navbar-story a.story-item:hover .story-item-background {
+.storybar .story-item:hover .story-item-background,
+.storybar a.story-item:hover .story-item-background {
   opacity: 1;
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   filter: grayscale(0);
 }
-header.navigation #navbar-story .story-item:hover .story-item-container,
-header.navigation #navbar-story a.story-item:hover .story-item-container {
+.storybar .story-item:hover .story-item-container,
+.storybar a.story-item:hover .story-item-container {
   opacity: 0;
 }
-header.navigation #navbar-story .story-item:hover .story-item-container .story-item-content p,
-header.navigation #navbar-story a.story-item:hover .story-item-container .story-item-content p {
+.storybar .story-item:hover .story-item-container .story-item-content p,
+.storybar a.story-item:hover .story-item-container .story-item-content p {
   display: none;
 }
-header.navigation #navbar-story .story-item:hover .story-item-container .story-item-content p.byline,
-header.navigation #navbar-story a.story-item:hover .story-item-container .story-item-content p.byline {
+.storybar .story-item:hover .story-item-container .story-item-content p.byline,
+.storybar a.story-item:hover .story-item-container .story-item-content p.byline {
   display: block;
 }
-header.navigation #navbar-story .story-item:hover .story-item-container .story-item-content h3,
-header.navigation #navbar-story a.story-item:hover .story-item-container .story-item-content h3,
-header.navigation #navbar-story .story-item:hover .story-item-container .story-item-content p,
-header.navigation #navbar-story a.story-item:hover .story-item-container .story-item-content p {
+.storybar .story-item:hover .story-item-container .story-item-content h3,
+.storybar a.story-item:hover .story-item-container .story-item-content h3,
+.storybar .story-item:hover .story-item-container .story-item-content p,
+.storybar a.story-item:hover .story-item-container .story-item-content p {
   text-decoration: none;
+}
+#navbar-story {
+  z-index: 1;
+  background-color: #333;
+  margin-top: -60px;
+  -webkit-box-shadow: inset 0 0 50px #000000;
+  box-shadow: inset 0 0 50px #000000;
+}
+#navbar-story .story-item,
+#navbar-story a.story-item {
+  background-color: #000;
+  height: 60px;
+}
+#navbar-story .story-item.tall,
+#navbar-story a.story-item.tall {
+  height: auto;
+}
+#navbar-story .story-item.tall .story-item-background,
+#navbar-story a.story-item.tall .story-item-background {
+  height: auto;
+}
+#navbar-story .story-item.tall .story-item-container,
+#navbar-story a.story-item.tall .story-item-container {
+  height: auto;
+}
+#navbar-story .story-item .story-item-background,
+#navbar-story a.story-item .story-item-background,
+#navbar-story .story-item .story-item-container,
+#navbar-story a.story-item .story-item-container {
+  height: 60px;
 }
 header.navigation #navbar-product {
   z-index: 20;
@@ -7079,10 +7243,6 @@ header.navigation #navbar-product #stories-btn .icon-stack {
 header.navigation #navbar-product .knightlab-logo img {
   height: 76px;
   margin-right: 0px;
-  padding: 15px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #fff;
-  border-radius: 50%;
 }
 header.navigation #navbar-product .knightlab-logo b.caret {
   display: none;
@@ -7091,6 +7251,11 @@ header.navigation #navbar-product .navbar-brand-knightlab,
 header.navigation #navbar-product #navbar-title {
   color: #FFF;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+header.navigation #navbar-product .dropdown.open .navbar-brand-knightlab,
+header.navigation #navbar-product .dropdown.open #navbar-title {
+  color: #333;
+  text-shadow: none;
 }
 header.navigation #navbar-product .navbar-brand-knightlab {
   z-index: 5;
