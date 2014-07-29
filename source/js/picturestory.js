@@ -31,6 +31,8 @@
 
 // @codekit-prepend "source/jquery.laziestloader.js";
 
+
+
 $(document).ready(function(){
 	var _speed = 500,
 		_story_nav_active = false,
@@ -94,9 +96,9 @@ $(document).ready(function(){
 				};
 				
 				if (stories.small.length > 4) {
-					small_stories_element = createElement("div", "col-sm-4 small-column");
+					small_stories_element = createEl("div", "col-sm-4 small-column");
 				} else {
-					small_stories_element = createElement("div", "col-sm-4 small-column");
+					small_stories_element = createEl("div", "col-sm-4 small-column");
 				}
 				
 				$(story_container).append(small_stories_element);
@@ -170,8 +172,6 @@ $(document).ready(function(){
 				$( story_container).find( ".story-item.tall .story-item-container" ).height(storybar_large_height);
 				$( story_container).find( ".story-item.tall .story-item-background" ).height(storybar_large_height);
 				
-				//(100 / small_rows)
-				trace("SMALL ROWS " + small_rows)
 				
 				
 				
@@ -469,10 +469,10 @@ $(document).ready(function(){
 	function makeImagesZoomable() {
 		$( "figure" ).each(function(figure) {
 			if ($(this).find( "a img" ).length ) {
-				trace("FOUND ZOOM READY IMAGE");
+				
 			} else {
 				var img_url,
-					el_link = createElement("a", "enlarge"),
+					el_link = createEl("a", "enlarge"),
 					el_img = $(this).find("img");
 					
 					
@@ -531,10 +531,24 @@ trace = function( msg ) {
 	} else {
 		//alert(msg);
 	}
-}
+};
 
-createElement = function(tagName, className) {
+/* Create Element
+================================================== */
+createEl = function(tagName, className) {
 	var el = document.createElement(tagName);
 	el.className = className;
 	return el;
-}
+} ;
+
+/* Google Analytics
+================================================== */
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-537357-22', 'auto');
+ga('send', 'pageview');
+
+
