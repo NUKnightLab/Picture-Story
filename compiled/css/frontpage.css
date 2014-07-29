@@ -1,0 +1,139 @@
+/*!
+	Bootstrap Project Template Custom CSS
+*/
+
+
+#whatItDoes{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#about{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#examples{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.examplesContent{
+	background-color: #f3f3f3;
+}
+
+#rowExamples{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+
+#exampleImage{
+	margin-right: 10px;
+	display: block;
+	height: 150px;
+}
+
+#how{
+	text-align: center;
+	padding-top: 30px;
+}
+
+#steps{
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 20px;
+}
+
+#faq{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+h2{
+	font-family: "SalvoSerifCond";
+	font-size: 36px;
+	font-weight: 400;
+}
+
+h1{
+	font-family: "SalvoSerifCond";
+	font-size: 90px;
+	font-weight: 400;
+	color: white;
+}
+
+p{
+	font-family: "Apres RE",Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 32px;
+}
+
+#pDescription{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "Apres RE",Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+a:hover{
+	color: #1dacd6;
+	text-decoration: none;
+}
+
+.about-knightlab a:hover{
+	color: #1dacd6;
+}
+
+h5{
+	font-family: "Apres RE",Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #1dacd6;
+}
+
+h5:hover{
+	text-decoration: underline;
+}
+
+.panel-title {
+	font-family: "Apres RE",Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+h3{
+	font-family: "Apres RE",Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+
+.knightlab-logo{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#white{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+}
+
+.beginning{
+	color: #c46d4c;
+	font-size: 30px;
+	margin-top: 50px;
+	line-height: 34px;
+}
+
+.beg{
+	height: 100px;
+	width: 100%;
+}
