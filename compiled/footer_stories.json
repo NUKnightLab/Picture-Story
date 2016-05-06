@@ -1,6 +1,106 @@
 {
 	"stories": [
 		{
+			"url": 		"stories/baldricks.html",
+			"headline": "Bald and Bold",
+			"deck": 	"St. Baldrick's at Northwestern raises over $10,000 for cancer research at first-ever head shaving event.",
+			"byline": 	"by Mia Zanzucchi",
+			"large": 	"false",
+			"background": {			
+				"url": 	"photos/thumbs/baldricks.jpg"
+			}
+		},
+		{
+			"url": 		"stories/bangs.html",
+			"headline": "The Pink Rosies",
+			"deck": 	"Between three bestfriends and an eclectic gift shop comes the second annual event called Bangs, an arts sale and space for locals to get their bangs or beard trimmed.",
+			"byline": 	"by COURTNEY MORRISON",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/bangs.jpg"
+			}
+		},
+		{
+			"url": 		"stories/deeringfinal.html",
+			"headline": "Deering After Dark",
+			"deck": 	"The Library Gets 'Lit'erary",
+			"byline": 	"by ALEX FURUYA",
+			"large": 	"false",
+			"background": {			
+				"url": 	"photos/thumbs/deeringfinal.jpg"
+			}
+		},
+		{
+			"url": 		"stories/golf.html",
+			"headline": "Couples hit the links",
+			"deck": 	"Oak Hills Country Club hosts annual April Couples' Golf Tournament in record high temperatures.",
+			"byline": 	"by Megan O'Brien",
+			"large": 	"false",
+			"background": {			
+				"url": 	"photos/thumbs/golf.jpg"
+			}
+		},
+		{
+			"url": 		"stories/greek_parade.html",
+			"headline": "Back to our Roots",
+			"deck": 	"The residents of Greektown turned out in droves in celebration of the 195th anniversary of Greece’s declaration of independence.",
+			"byline": 	"by Sam Schumacher",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/greek_parade.jpg"
+			}
+		},
+		{
+			"url": 		"stories/gwsalsa.html",
+			"headline": "GWU's Latino Legacy",
+			"deck": 	"Salsa, snacks and celebrations mark 20 years of the Latino Association's existence.",
+			"byline": 	"by SANYA MANSOOR",
+			"large": 	"false",
+			"background": {			
+				"url": 	"photos/thumbs/gwsalsa.jpg"
+			}
+		},
+		{
+			"url": 		"stories/lacrosse_beats_rutgers.html",
+			"headline": "Women's Lacrosse Routs Rutgers",
+			"deck": 	"The Wildcats overcame the Scarlet Knights in a decisive 20-9 game.",
+			"byline": 	"by Emma Sarappo",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/lacrosse_beats_rutgers.jpg"
+			}
+		},
+		{
+			"url": 		"stories/sight_and_sound.html",
+			"headline": "Sight and Sound",
+			"deck": 	"Bienen Contemporary Music Ensemble performs new pieces by David Lang.",
+			"byline": 	"by LOUIS LU",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/sight_and_sound.jpg"
+			}
+		},
+		{
+			"url": 		"stories/unity.html",
+			"headline": "Unity Fashion Charity Show",
+			"deck": 	"Northwestern students strutted to a sold-out crowd Sunday night for the 9th annual Unity Charity Fashion Show.",
+			"byline": 	"by Annabel Edwards",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/unity.jpg"
+			}
+		},
+		{
+			"url": 		"stories/unity_fashion.html",
+			"headline": "Rock the Runway",
+			"deck": 	"UNITY celebrates 'renewal' for its ninth annual charity fashion show.",
+			"byline": 	"by NATALIE ESCOBAR",
+			"large": 	"true",
+			"background": {			
+				"url": 	"photos/thumbs/unity_fashion.jpg"
+			}
+		},
+		{
 			"url": 		"stories/cattleranchers.html",
 			"headline": "Treating Sick Meat",
 			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
@@ -38,106 +138,6 @@
 			"large": 	"true",
 			"background": {			
 				"url": 	"photos/thumbs/jackie.jpg"
-			}
-		},
-		{
-			"url": 		"stories/postprison.html",
-			"headline": "Back To Work",
-			"deck": 	"",
-			"byline": 	"by SCOTT THOMAS",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/postprison.jpg"
-			}
-		},
-		{
-			"url": 		"stories/luhands.html",
-			"headline": "In Lucille's Hands",
-			"deck": 	"Most seniors by the age of 81 are living in nursing homes, but Lucille Caravette is holding her own.",
-			"byline": 	"by MARTINE GRANBY",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/luhands.jpg"
-			}
-		},
-		{
-			"url": 		"stories/pumpkin_queen_alt.html",
-			"headline": "The Pumpkin Queen",
-			"deck": 	"",
-			"byline": 	"by ZACH WISE",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/pumpkin_queen.jpg"
-			}
-		},
-		{
-			"url": 		"stories/driving_force.html",
-			"headline": "Driving Force",
-			"deck": 	"",
-			"byline": 	"by ZACH WISE",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/drivingforce.jpg"
-			}
-		},
-		{
-			"url": 		"stories/veterans_alt.html",
-			"headline": "Veteran's Day",
-			"deck": 	"",
-			"byline": 	"by ZACH WISE",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/veterans.jpg"
-			}
-		},
-		{
-			"url": 		"stories/cattleranchers.html",
-			"headline": "Treating Sick Meat",
-			"deck": 	"Ranchers speak out on misperceptions about over-use of antibiotics in cattle.",
-			"byline": 	"Photographs by ELISSA NADWORNY",
-			"large": 	"true",
-			"background": {			
-				"url": 	"photos/thumbs/cattleranchers.jpg"
-			}
-		},
-		{
-			"url": 		"stories/lashonda.html",
-			"headline": "Walking with LaShonda",
-			"deck": 	"A Day in the Life of a student on the West Side",
-			"byline": 	"by CHRISTINA CALA",
-			"large": 	"true",
-			"background": {			
-				"url": 	"photos/thumbs/lashonda.jpg"
-			}
-		},
-		{
-			"url": 		"stories/farm.html",
-			"headline": "Farming for the Future",
-			"deck": 	"Bucking four generations of tradition, cattleman Will Harris changed the way he farmed to leave behind a better land.",
-			"byline": 	"by HOMA BASH",
-			"large": 	"true",
-			"background": {			
-				"url": 	"photos/thumbs/farm.jpg"
-			}
-		},
-		{
-			"url": 		"stories/jackie.html",
-			"headline": "Raising the Bar",
-			"deck": 	"A Chicago teen sets high expectations for herself and her new family before graduation",
-			"byline": 	"by MONIKA WNUK",
-			"large": 	"true",
-			"background": {			
-				"url": 	"photos/thumbs/jackie.jpg"
-			}
-		},
-		{
-			"url": 		"stories/postprison.html",
-			"headline": "Back To Work",
-			"deck": 	"",
-			"byline": 	"by SCOTT THOMAS",
-			"large": 	"false",
-			"background": {			
-				"url": 	"photos/thumbs/postprison.jpg"
 			}
 		},
 		{
